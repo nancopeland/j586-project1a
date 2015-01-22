@@ -1,0 +1,145 @@
+/*style for project1*/
+
+body {
+    font-family: Myriad Pro, Veranda, sans-serif;
+    color: #777777;
+}
+
+h2 {
+    color: #2498f4;
+    font-size: 2em; 
+}
+
+a {
+    color: inherit; 
+}
+
+a:hover {
+    color: #134670;
+    text-decoration: none; 
+}
+
+/*HEADER*/
+
+header {
+    background-color: #208ce3;
+    color: #FFFFFF;
+    /*padding: 10px 150px 10px 150px;*/
+}
+
+.social {
+    font-size: 1.5em;
+    float: left;
+    padding: 10px 0px 10px 100px;
+    
+}
+
+.mini {
+    font-size: 1em;
+    text-align: right;
+    padding: 10px 100px 10px 0px;
+}
+
+/*MENU*/
+
+.menu {
+    background-color: #134670;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*CONTAINER*/
+
+.container {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+.dashboard {
+    background-color: #33cc66;
+    color: #FFFFFF;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #33cc66;
+    padding: 3px 10px 3px 10px;
+}
+
+.search {
+    background: #FFFFFF;
+    color: #33cc66;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #eeeeee;
+    min-height: 25px;
+}
+
+.main-gradient {
+    margin-top: 15px;
+    background: -webkit-linear-gradient(#f6f6f6, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f6f6f6, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f6f6f6, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f6f6f6, transparent); /* Standard syntax */
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #eeeeee;
+}
+
+.main-white {
+    margin: 15px 15px 0px 15px; 
+    background-color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #eeeeee; 
+}
+
+.announcements {
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+}
+
+.orange {
+    color: #fe7f13;
+    border-right: 1px solid;
+    border-color: #eeeeee;
+    padding: 20px; 
+}
+
+.latin {
+    border-right: 1px solid;
+    border-color: #eeeeee;
+    padding: 20px;
+}
+
+.arrows{
+    padding: 20px; 
+}
+
+.left-col {
+    border-right: 1px solid;
+    border-color: #eeeeee;
+}
+
+.ads {
+    background-color: #2498f4;
+    min-height: 150px;
+    padding: 25px; 
+    
+}
+.ad-pic {
+    background: #FFFFFF;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
