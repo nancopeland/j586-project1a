@@ -1,0 +1,174 @@
+/*sprites for small images*/
+
+.header-question, .header-wheel, .icon-search, .left-annouce, .right-annouce {
+	background: url(images/sprites.png) no-repeat;
+}
+
+/*HEADER*/
+.header-question{
+	background-position: -16px -69px ;
+	width: 34px;
+	height: 31px;
+}
+
+.header-wheel{
+	background-position: -16px -19px ;
+	width: 34px;
+	height: 31px;
+}
+
+/*SEARCH*/
+.icon-search{
+	background-position: -14px -118px ;
+	width: 34px;
+	height: 31px;
+}
+
+/*ANNOUCEMENTS*/
+.left-annouce{
+	background-position: -17px -218px ;
+	width: 34px;
+	height: 31px;
+}
+
+.right-annouce{
+	background-position: -15px -168px ;
+	width: 34px;
+	height: 31px;
+}
+
+/*ACTIVITY*/
+.activity-facebook{
+	background-position: -446px -169px ;
+	width: 75px;
+	height: 40px;
+}
+
+.activity-foursquare{
+	background-position: -447px -119px ;
+	width: 85px;
+	height: 40px;
+}
+
+.activity-googleplus{
+	background-position: -437px -71px ;
+	width: 85px;
+	height: 40px;
+}
+
+.activity-twitter{
+	background-position: -440px -20px ;
+	width: 75px;
+	height: 40px;
+}
+
+.article-icon{
+	background-position: -221px -63px ;
+	width: 34px;
+	height: 40px;
+}
+
+.blue-person-small{
+	background-position: -222px -174px ;
+	width: 34px;
+	height: 31px;
+}
+
+.check-icon{
+	background-position: -222px -117px ;
+	width: 34px;
+	height: 40px;
+}
+
+.footer-facebook{
+	background-position: -300px -203px ;
+	width: 85px;
+	height: 75px;
+}
+
+.footer-foursquare{
+	background-position: -299px -152px ;
+	width: 85px;
+	height: 75px;
+}
+
+.footer-logout{
+	background-position: -294px -295px ;
+	width: 85px;
+	height: 75px;
+}
+
+.footer-twitter{
+	background-position: -300px -103px ;
+	width: 85px;
+	height: 75px;
+}
+
+.footer-youtube{
+	background-position: -299px -54px ;
+	width: 85px;
+	height: 75px;
+}
+
+.grey-person-small{
+	background-position: -221px -224px ;
+	width: 34px;
+	height: 31px;
+}
+
+.grey-wheel{
+	background-position: -219px -272px ;
+	width: 34px;
+	height: 31px;
+}
+
+
+
+.left-flag{
+	background-position: -99px -90px ;
+	width: 85px;
+	height: 75px;
+}
+
+.left-orange-arrow{
+	background-position: -98px -169px ;
+	width: 85px;
+	height: 75px;
+}
+
+.lightbulb-icon{
+	background-position: -224px -13px ;
+	width: 34px;
+	height: 40px;
+}
+
+.orange-check{
+	background-position: -20px -266px ;
+	width: 34px;
+	height: 40px;
+}
+
+.orange-down-arrow{
+	background-position: -101px -307px ;
+	width: 85px;
+	height: 75px;
+}
+
+
+
+.right-flag{
+	background-position: -95px -11px ;
+	width: 85px;
+	height: 75px;
+}
+
+.right-orange-arrow{
+	background-position: -93px -243px ;
+	width: 85px;
+	height: 75px;
+}
+
+
+
+
+

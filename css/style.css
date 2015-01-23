@@ -15,29 +15,25 @@ a {
 }
 
 a:hover {
-    color: #134670;
+    color: #134670; 
     text-decoration: none; 
 }
 
 /*HEADER*/
 
+.menu-container {
+    width: 100%; 
+}
+
 header {
     background-color: #208ce3;
     color: #FFFFFF;
-    /*padding: 10px 150px 10px 150px;*/
-}
-
-.social {
-    font-size: 1.5em;
-    float: left;
-    padding: 10px 0px 10px 100px;
-    
-}
-
-.mini {
+    height: 50px; 
     font-size: 1em;
+    font-weight: 600;
     text-align: right;
-    padding: 10px 100px 10px 0px;
+    padding-right: 75px;
+    vertical-align: middle; 
 }
 
 /*MENU*/
@@ -72,6 +68,13 @@ header {
     border-radius: 3px;
     border-color: #eeeeee;
     min-height: 25px;
+    padding: 3px;
+    margin-top: 15px; 
+}
+
+.icon-search {
+    text-align: right;
+    margin-right: inherit;  
 }
 
 .main-gradient {
@@ -102,17 +105,25 @@ header {
     color: #fe7f13;
     border-right: 1px solid;
     border-color: #eeeeee;
-    padding: 20px; 
+    padding: 18px; 
 }
 
 .latin {
     border-right: 1px solid;
     border-color: #eeeeee;
-    padding: 20px;
+    padding: 18px;
 }
 
 .arrows{
-    padding: 20px; 
+    padding: 15px 10px 15px 10px;
+}
+
+.left-arrow {
+    float: left;
+}
+
+.right-arrow {
+    float: right; 
 }
 
 .left-col {

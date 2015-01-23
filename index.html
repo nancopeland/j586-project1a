@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>J586 Project 1</title>
+    <link rel="icon" type="image/png" href="css/images/favicon-01.png">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/sprites-small.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,27 +20,33 @@
     <![endif]-->
   </head>
   <body>
+    <div class="menu-container">
     <header>
         <div class="row">
-            <span class="col-md-6 col-sm-12 col-xs-12 social">
-              social stream
-            </span>
-            <span class="col-md-6 col-sm-12 col-xs-12 mini">
-                MINI of Raleigh
-                <!--image icons-->
-            </span>
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <p>MINI of Raleigh</p>
+                <span class="header-question"></span>
+                <span class="header-wheel"></span>
+            </div>
         </div>
     </header>
+    </div>
     <div class="menu">
         ICONS
     </div>
     <div class="container">
       <div class="row dashboard">
-        <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="col-md-4 col-sm-6 col-xs-6">
           <h1>Dashboard</h1>
         </div>
-        <div class="col-md-4 col-sm-12 col-xs-12"></div>
-        <div class="col-md-4 col-sm-12 col-xs-12 search">search bar</div>
+        <div class="col-md-4 col-sm-6 col-xs-6"></div>
+        <div class="col-md-4 col-sm-6 col-xs-6">
+          <div class="row search">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4 icon-search"><img src="css/images/search.png"></div>
+          </div>
+        </div>
       </div>
       <div class="row main-gradient">
         <div class="row main-white">
@@ -53,7 +61,8 @@
                 Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus
               </div>
               <div class="col-md-1 col-sm-6 col-xs-6 arrows">
-                arrows
+                <span class="left-arrow"><a href="#"><img src="css/images/left-annouce-arrow.png"></a></span>
+                <span class="right-arrow"><a href="#"><img src="css/images/right-annouce-arrow.png"></a></span>
               </div>
             </div>
           </div>
