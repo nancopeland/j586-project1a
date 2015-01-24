@@ -12,6 +12,10 @@ h2 {
     padding: none; 
 }
 
+h4 {
+    color: #2498f4;
+}
+
 a {
     color: inherit; 
 }
@@ -70,7 +74,8 @@ header {
 }
 
 .search {
-    margin-top: 15px; 
+    margin-top: 15px;
+    float: right; 
 }
 
 .blue {
@@ -78,7 +83,7 @@ header {
     color: #208ce3;
     font-size: 20px;
     padding: 7px;
-    position: absolute; 
+    position: inherit; 
 }
 
 .main-gradient {
@@ -100,6 +105,7 @@ header {
     border-color: #eeeeee; 
 }
 
+/*ANNOUCEMENTS*/
 .announcements {
     border-bottom: 1px solid;
     border-color: #eeeeee;
@@ -122,19 +128,46 @@ header {
     padding: 15px 10px 15px 10px;
 }
 
-/*.left-arrow {
-    float: left;
-}
-
-.right-arrow {
-    float: right; 
-}*/
-
 .left-col {
     border-right: 1px solid;
     border-color: #eeeeee;
+    padding: 0; 
 }
 
+/*TASKS*/
+.section-header{
+    padding: 0px 15px 0px 15px; 
+}
+.tasks {
+    color: #2498f4;
+    font-size: 1.25em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.circle {
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #33cc66;
+    padding: 5px 9px 5px 9px;
+    margin-right: 10px; 
+}
+
+.letter-spacing {
+    letter-spacing: .08em;
+}
+
+.list {
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+}
+
+/*ADS*/
 .ads {
     background-color: #2498f4;
     min-height: 150px;
