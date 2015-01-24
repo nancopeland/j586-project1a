@@ -21,8 +21,12 @@ a {
 }
 
 a:hover {
-    color: #134670; 
+    color: #1e86d8; 
     text-decoration: none; 
+}
+
+.right {
+    float: right; 
 }
 
 /*HEADER*/
@@ -138,15 +142,26 @@ header {
 .section-header{
     padding: 0px 15px 0px 15px; 
 }
+
 .tasks {
     color: #2498f4;
     font-size: 1.25em;
+}
+
+.tasks a:hover {
+    color: #cccccc; 
 }
 
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0; 
+}
+
+.list {
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
 }
 
 .circle {
@@ -157,30 +172,62 @@ ul {
     margin-right: 10px; 
 }
 
+.circle:hover {
+    color: #FFFFFF;
+    background-color: #cccccc;
+    text-decoration: none; 
+}
+
 .letter-spacing {
     letter-spacing: .08em;
 }
 
-.list {
-    padding: 15px;
+.head-count {
+    background-image: url(css/images/avatar-blue.png");
+    float: right;
+    border: 1px solid;
+    border-color: #eeeeee;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px; 
+}
+
+.head-count:hover {
+    background-image: url(css/images/avatar-grey.png");
+}
+
+.number {
+    padding-left: 3px; 
+}
+
+.number a:hover {
+    color: #cccccc; 
+}
+
+.right-col {
+    padding: 0; 
+}
+
+/*ANALYTICS*/
+.analytics {
+    padding: 0px 15px 15px 15px;
     border-bottom: 1px solid;
     border-color: #eeeeee;
 }
 
-/*ADS*/
-.ads {
-    background-color: #2498f4;
-    min-height: 150px;
-    padding: 25px; 
-    
+.graph {
+    padding: 5px; 
 }
-.ad-pic {
-    background: #FFFFFF;
-    border: 1px solid;
-    border-radius: 5px;
-    border-color: #FFFFFF;
-    min-height: 100px;
+
+.charts {
+    border-left: 2px solid;
+    border-color: #eeeeee; 
 }
+
+/*PROMOS*/
+.promo {
+    background-color: #2498f4; 
+}
+
 
 
 
