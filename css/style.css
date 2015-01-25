@@ -20,9 +20,14 @@ a {
     color: inherit; 
 }
 
-a:hover {
-    color: #1e86d8; 
+a:hover{
+    color: #cccccc;
     text-decoration: none; 
+}
+
+h2 a:hover {
+    color: #1e86d8; 
+    text-decoration: none;
 }
 
 .right {
@@ -30,11 +35,6 @@ a:hover {
 }
 
 /*HEADER*/
-
-.menu-container {
-    width: 100%; 
-}
-
 header {
     background-color: #208ce3;
     color: #FFFFFF; 
@@ -44,7 +44,7 @@ header {
 }
 
 .header-padding {
-    padding: 10px; 
+    padding: 10px;
 }
 
 .mini, .question {
@@ -139,7 +139,7 @@ header {
 }
 
 /*TASKS*/
-.section-header{
+.section-header {
     padding: 0px 15px 0px 15px; 
 }
 
@@ -178,10 +178,6 @@ ul {
     text-decoration: none; 
 }
 
-.letter-spacing {
-    letter-spacing: .08em;
-}
-
 .head-count {
     background-image: url(css/images/avatar-blue.png");
     float: right;
@@ -207,6 +203,40 @@ ul {
     padding: 0; 
 }
 
+/*RECOMMENDATIONS*/
+.recommendations li {
+    padding: 10px 0px 10px 0px;
+    display: block;
+    overflow: hidden;
+}
+
+.recommendations-list {
+    border-bottom: 1px dotted;
+    border-color: #eeeeee; 
+    margin: 0px 15px 0px 15px; 
+}
+
+.recommendations-icon {
+    padding-right: 10px;
+    float: left; 
+}
+
+.recommendations-name {
+    float: left; 
+}
+
+.recommendations-name p {
+    font-size: .75em;
+    margin: 0;
+}
+
+.recommendations-name h6 {
+    font-size: 1.1em;
+    margin: 0; 
+}
+
+
+
 /*ANALYTICS*/
 .analytics {
     padding: 0px 15px 15px 15px;
@@ -221,6 +251,30 @@ ul {
 .charts {
     border-left: 2px solid;
     border-color: #eeeeee; 
+}
+
+/*CONTACTS&CUSTOMERS*/
+.contacts {
+    border-bottom: 1px solid;
+    border-color: #eeeeee;
+}
+
+/*DIDYOUKNOW*/
+.didyouknow{
+    padding: 25px; 
+}
+
+.duk-text{
+   background-color: #2498f4;
+   padding: 25px 40px 25px 40px;
+   color: #FFFFFF;
+   border: 1px solid;
+   border-radius: 5px;
+   border-color: #2498f4; 
+}
+
+.duk-text p{
+    margin: 0px; 
 }
 
 /*PROMOS*/
