@@ -263,6 +263,36 @@ ul {
     border-color: #eeeeee;
 }
 
+.avatar {
+    padding: 25px 0px 15px 50px; 
+}
+
+.avatar-green, .avatar-orange{
+    text-align: center; 
+    padding: 5px;
+    border: 1px solid;
+    border-color: #eeeeee;
+    border-radius: 3px;
+    /*margin: 40px 0px 20px 40px;*/ 
+}
+
+.avatar-text {
+    color: #FFFFFF;
+    background-color: #2498f4;
+    text-align: center;
+    padding: 10px 0px 10px 0px; 
+}
+
+.avatar-text h6 {
+    font-size: 1.5em;
+    margin: 0px; 
+}
+
+.avatar-text p {
+    margin: 0px;
+    font-size: .85em; 
+}
+
 /*DIDYOUKNOW*/
 .didyouknow{
     padding: 25px; 
