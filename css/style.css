@@ -78,7 +78,7 @@ header {
     border: 2px solid;
     border-radius: 5px;
     border-color: #33cc66;
-    padding: 3px 10px 3px 10px;
+    padding: 3px 10px 3px 5px;
 }
 
 .search {
@@ -87,11 +87,12 @@ header {
 }
 
 .blue {
-    float: right;
     color: #208ce3;
     font-size: 20px;
-    padding: 7px;
-    position: inherit; 
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    display: inline-block; 
 }
 
 .main-gradient {
@@ -156,6 +157,10 @@ header {
     color: #cccccc; 
 }
 
+.tasks ul li span :hover {
+    color: #FFFFFF; 
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -177,13 +182,11 @@ ul {
 }
 
 .circle:hover {
-    color: #FFFFFF;
     background-color: #cccccc;
     text-decoration: none; 
 }
 
 .head-count {
-    background-image: url(css/images/avatar-blue.png");
     float: right;
     border: 1px solid;
     border-color: #eeeeee;
@@ -192,14 +195,14 @@ ul {
 }
 
 .head-count:hover {
-    background-image: url(css/images/avatar-grey.png");
+    color: #cccccc;
 }
 
 .number {
     padding-left: 3px; 
 }
 
-.number a:hover {
+.number a:hover{
     color: #cccccc; 
 }
 
@@ -248,6 +251,15 @@ ul {
     border-color: #eeeeee;
 }
 
+.analytics-text{
+    padding: 15px;
+    margin-bottom: 0; 
+}
+
+.orange-glyph {
+    color: #fe7f13; 
+}
+
 .graph {
     padding: 5px; 
 }
@@ -257,23 +269,41 @@ ul {
     border-color: #eeeeee; 
 }
 
+.charts-text {
+    margin: 15px 0px 8px 0px;
+    font-size: .9em; 
+}
+
+.analytics-social {
+    text-align: center;
+    margin: 15px 0px 15px 0px; 
+}
+
+.analytics-social img{
+    padding-right: 5px; 
+}
+
+
 /*CONTACTS&CUSTOMERS*/
 .contacts {
     border-bottom: 1px solid;
     border-color: #eeeeee;
-}
-
-.avatar {
-    padding: 25px 0px 15px 50px; 
+    padding: 20px; 
 }
 
 .avatar-green, .avatar-orange{
     text-align: center; 
-    padding: 5px;
     border: 1px solid;
     border-color: #eeeeee;
-    border-radius: 3px;
-    /*margin: 40px 0px 20px 40px;*/ 
+    border-radius: 3px; 
+}
+
+.avatar-green {
+    margin-right: 10px; 
+}
+
+.avatar-orange {
+    margin-left: 10px; 
 }
 
 .avatar-text {
@@ -302,7 +332,8 @@ ul {
     background-color: #2498f4;
     border: 1px solid;
     border-radius: 5px;
-    border-color: #FFFFFF; 
+    border-color: #FFFFFF;
+    display: block; 
 }
 
 .duk-text{
@@ -315,8 +346,19 @@ ul {
     margin: 0px; 
 }
 
-.duk-arrows{
-    padding: 25px 0px 25px 0px; 
+.duk-arrow {
+    padding-left: 0px;
+    padding-right: 0px; 
+}
+
+.duk-arrow-one {
+    display: inline-block;
+    padding: 40px 0px 40px 0px; 
+}
+
+.duk-arrow-two {
+    display: inline-block;
+    padding: 40px 0px 40px 0px; 
 }
 
 /*PROMOS*/

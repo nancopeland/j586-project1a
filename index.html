@@ -167,44 +167,80 @@
             <div class="analytics">
               <h2 class="section-header"><a href="#">Analytics</a></h2>
               <div class="row">
-                <div class="col-md-9 col-sm-12 col-xs-12">
+                <div class="col-md-10 col-sm-12 col-xs-12 analytics-left">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                      <p class="analytics-text">ACTIVITY</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 right">
+                      <div class="dropdown" role="group" aria-label="...">
+                        <button class="btn btn-default dropdown-toggle"
+                        type="button" id="dropdownMenu1" data-toggle="dropdown"
+                        aria-expanded="true">
+                          06/28/11 - 07/21/11
+                          <span class="caret orange-glyph"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">more dates woo</a></li> 
+                        </ul>
+                      </div>
+                    </div>  
+                  </div>
                   <img class="graph" src="css/images/analytics-graph.png">
                 </div>
-                <div class="col-md-3 col-sm-12 col-xs-12 charts">
-                  <p>CHANNELS</p>
+                <div class="col-md-2 col-sm-12 col-xs-12 charts">
+                  <p class="charts-text">CHANNELS</p>
                   <img src="css/images/channels.png">
-                  <p>REFERRALS</p>
+                  <p class="charts-text">REFERRALS</p>
                   <img src="css/images/referrels.png">
                 </div>
+              </div>
+              <div class="row analytics-social">
+                  <div class="col-md-12">
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox1" value="option1">
+                      <img src="css/images/activity-facebook.png"
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox2" value="option2">
+                      <img src="css/images/activity-twitter.png"
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox3" value="option3">
+                      <img src="css/images/activity-foursquare.png"
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox4" value="option4">
+                      <img src="css/images/activity-googleplus.png"
+                    </label>
+                  </div>
               </div>
             </div>
             <!--contacts&customers-->
             <div class="contacts">
               <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-4 avatar avatar-green">
+                <div class="col-md-5 col-sm-12 col-xs-12 avatar-green">
                   <img src="css/images/avatar-green.png">
                   <div class="avatar-text">
                     <h6>75 CONTACTS</h6>
                     <p>4 INFLUENCERS</p>
                   </div>  
                 </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-4 avatar avatar-orange">
+                <div class="col-md-2 hidden-sm hidden-xs"></div>
+                <div class="col-md-5 col-sm-12 col-xs-12 avatar-orange">
                   <img src="css/images/avatar-orange.png">
                   <div class="avatar-text">
                     <h6>17 CUSTOMERS</h6>
                     <p>0 INFLUENCERS</p>
                   </div> 
                 </div>
-                <div class="col-md-1"></div>
               </div>
             </div>
             <!--didyouknow-->
             <div class="didyouknow">
               <div class="row duk-content">
-                <div class="col-md-1 col-sm-1 col-xs-1 left duk-arrows">
-                  <a href="#"><img src="css/images/back-arrow.png"></a>
+                <div class="col-md-1 col-sm-1 col-xs-1 duk-arrow">
+                  <a class="duk-arrow-one" href="#"><img src="css/images/back-arrow.png"></a>
                 </div>
                 <div class="col-md-10 col-sm-10 col-xs-10 duk-text">
                   <p>DID YOU KNOW</p>
@@ -212,8 +248,8 @@
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta
                   sem malesuada magna mollis euismod.</p>
                 </div>  
-                <div class="col-md-1 col-sm-1 col-xs-1 right duk-arrows">
-                  <a href="#"><img src="css/images/next-arrow.png"></a>
+                <div class="col-md-1 col-sm-1 col-xs-1 duk-arrow">
+                  <a class="duk-arrow-two right" href="#"><img src="css/images/next-arrow.png"></a>
                 </div>
               </div>
             </div>
