@@ -61,12 +61,80 @@ header {
 .menu {
     background-color: #134670;
     text-align: center;
-    padding: 20px 0px 20px 0px; 
+    padding: 20px 0px 20px 0px;
 }
 
-.icon-margin {
-    margin: 0px 10px 0px 10px; 
+.icons {
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
 }
+
+#menu-dashboard {
+    background-image: url('images/menu-dashboard-green.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-customers {
+    background-image: url('images/menu-customers-blue.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-customers:hover {
+    background-image: url('images/menu-customers-green.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-messages {
+    background-image: url('images/menu-messages-blue.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-messages:hover {
+    background-image: url('images/menu-messages-green.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-promotions {
+    background-image: url('images/menu-promotions-blue.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-promotions:hover {
+    background-image: url('images/menu-promotions-green.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-pagecreator {
+    background-image: url('images/menu-pagecreator-blue.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-pagecreator:hover {
+    background-image: url('images/menu-pagecreator-green.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-analytics {
+    background-image: url('images/menu-analytics-blue.png');
+    width: 60px;
+    height: 58px;
+}
+
+#menu-analytics:hover {
+    background-image: url('images/menu-analytics-green.png');
+    width: 60px;
+    height: 58px;
+}
+
 
 /*CONTAINER*/
 
