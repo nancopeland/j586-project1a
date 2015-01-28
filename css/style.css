@@ -61,7 +61,11 @@ header {
 .menu {
     background-color: #134670;
     text-align: center;
-    color: #FFFFFF;
+    padding: 20px 0px 20px 0px; 
+}
+
+.icon-margin {
+    margin: 0px 10px 0px 10px; 
 }
 
 /*CONTAINER*/
@@ -138,8 +142,6 @@ header {
 }
 
 .left-col {
-    border-right: 1px solid;
-    border-color: #eeeeee;
     padding: 0; 
 }
 
@@ -206,9 +208,6 @@ ul {
     color: #cccccc; 
 }
 
-.right-col {
-    padding: 0; 
-}
 
 /*RECOMMENDATIONS*/
 .recommendations li {
@@ -242,7 +241,11 @@ ul {
     margin: 0; 
 }
 
-
+.right-col {
+    border-left: 1px solid;
+    border-color: #eeeeee;
+    padding: 0; 
+}
 
 /*ANALYTICS*/
 .analytics {
@@ -285,32 +288,62 @@ ul {
 
 
 /*CONTACTS&CUSTOMERS*/
-.contacts {
+.contacts-customers {
     border-bottom: 1px solid;
     border-color: #eeeeee;
-    padding: 20px; 
+    padding: 20px 40px 40px 40px; 
 }
 
-.avatar-green, .avatar-orange{
+.cc-outside {
+    display: block; 
+}
+
+.cc-flag-left, .cc-flag-right {
+    position: absolute;
+    display: inline-block;
+    padding: 115px 0px 115px 0px; 
+}
+
+.cc-flag-left {
+    top: 0;
+    left: 0; 
+}
+
+.cc-flag-right {
+    top: 0;
+    right: 0;
+}
+
+.contacts, .customers{
     text-align: center; 
     border: 1px solid;
     border-color: #eeeeee;
-    border-radius: 3px; 
+    border-radius: 3px;
+    display: block;
+    margin-top: 20px;
+    padding: 0px;
+    max-width: 300px;
+    max-height: 300px; 
 }
 
 .avatar-green {
-    margin-right: 10px; 
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .avatar-orange {
-    margin-left: 10px; 
+    display: inline-block;
 }
 
 .avatar-text {
     color: #FFFFFF;
     background-color: #2498f4;
     text-align: center;
-    padding: 10px 0px 10px 0px; 
+    padding: 10px 0px 10px 0px;
+    /*margin-top: 30px;*/ 
 }
 
 .avatar-text h6 {
@@ -322,6 +355,14 @@ ul {
     margin: 0px;
     font-size: .85em; 
 }
+
+.cc-graph-green, .cc-graph-orange {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid;
+    border-radius: 2px;
+    border-color: #eeeeee; 
+}
+
 
 /*DIDYOUKNOW*/
 .didyouknow{

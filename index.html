@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/sprites-menu.css" rel="stylesheet">
     <!-- <link href="css/sprites-small.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,7 +33,18 @@
         </div>
     </header>
     <div class="menu">
-        ICONS
+        <!--<span class="menu-dashboard-green"></span>
+        <span class="menu-customers-blue"></span>
+        <span class="menu-messages-blue"></span>
+        <span class="menu-promotions-blue"></span>
+        <span class="menu-pagecreator-blue"></span>
+        <span class="menu-analytics-blue"></span>-->
+        <span><img class="icon-margin" src="css/images/menu-dashboard-green.png"></span>
+        <span><img class="icon-margin" src="css/images/menu-customers-blue.png"></span>
+        <span><img class="icon-margin" src="css/images/menu-messages-blue.png"></span>
+        <span><img class="icon-margin" src="css/images/menu-promotions-blue.png"></span>
+        <span><img class="icon-margin" src="css/images/menu-pagecreator-blue.png"></span>
+        <span><img class="icon-margin" src="css/images/menu-analytics-blue.png"></span>
     </div>
     <div class="container">
       <div class="row dashboard">
@@ -186,7 +198,7 @@
                       </div>
                     </div>  
                   </div>
-                  <img class="graph" src="css/images/analytics-graph.png">
+                  <img class="graph img-responsive" src="css/images/analytics-graph.png">
                 </div>
                 <div class="col-md-2 col-sm-12 col-xs-12 charts">
                   <p class="charts-text">CHANNELS</p>
@@ -199,40 +211,53 @@
                   <div class="col-md-12">
                     <label class="checkbox-inline">
                       <input type="checkbox" id="inlineCheckbox1" value="option1">
-                      <img src="css/images/activity-facebook.png"
+                      <img src="css/images/activity-facebook.png">
                     </label>
                     <label class="checkbox-inline">
                       <input type="checkbox" id="inlineCheckbox2" value="option2">
-                      <img src="css/images/activity-twitter.png"
+                      <img src="css/images/activity-twitter.png">
                     </label>
                     <label class="checkbox-inline">
                       <input type="checkbox" id="inlineCheckbox3" value="option3">
-                      <img src="css/images/activity-foursquare.png"
+                      <img src="css/images/activity-foursquare.png">
                     </label>
                     <label class="checkbox-inline">
                       <input type="checkbox" id="inlineCheckbox4" value="option4">
-                      <img src="css/images/activity-googleplus.png"
+                      <img src="css/images/activity-googleplus.png">
                     </label>
                   </div>
               </div>
             </div>
             <!--contacts&customers-->
-            <div class="contacts">
+            <div class="contacts-customers">
               <div class="row">
-                <div class="col-md-5 col-sm-12 col-xs-12 avatar-green">
-                  <img src="css/images/avatar-green.png">
-                  <div class="avatar-text">
-                    <h6>75 CONTACTS</h6>
-                    <p>4 INFLUENCERS</p>
-                  </div>  
+                <div class="col-md-6 col-sm-12 col-xs-12 cc-outside">
+                  <img class="cc-flag-left" src="css/images/left-flag.png">
+                  <div class="contacts">
+                    <img class="avatar-green img-responsive" src="css/images/avatar-green.png">
+                    <div class="avatar-text">
+                      <h6>75 CONTACTS</h6>
+                      <p>4 INFLUENCERS</p>
+                    </div>
+                    <div>
+                      <img class="cc-graph-green" src="css/images/chart-green.png">
+                    </div>
+                  </div>
+                  <img class="cc-flag-right" src="css/images/right-flag.png">
                 </div>
-                <div class="col-md-2 hidden-sm hidden-xs"></div>
-                <div class="col-md-5 col-sm-12 col-xs-12 avatar-orange">
-                  <img src="css/images/avatar-orange.png">
-                  <div class="avatar-text">
-                    <h6>17 CUSTOMERS</h6>
-                    <p>0 INFLUENCERS</p>
-                  </div> 
+                <div class="col-md-6 col-sm-12 col-xs-12 cc-outside">
+                  <img class="cc-flag-left" src="css/images/left-flag.png">
+                  <div class="customers">
+                    <img class="avatar-orange img-responsive" src="css/images/avatar-orange.png">
+                    <div class="avatar-text">
+                      <h6>17 CUSTOMERS</h6>
+                      <p>0 INFLUENCERS</p>
+                    </div>
+                    <div>
+                      <img class="cc-graph-orange" src="css/images/chart-orange.png">
+                    </div>
+                  </div>
+                  <img class="cc-flag-right" src="css/images/right-flag.png">
                 </div>
               </div>
             </div>
