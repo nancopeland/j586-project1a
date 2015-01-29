@@ -59,9 +59,10 @@ header {
 /*MENU*/
 
 .menu {
-    background-color: #134670;
+    background-color: #134670; 
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    /*background: #134670 url('css/images/menu_stripes.png') repeat center;
+    padding: 20px 0px 20px 0px;*/
 }
 
 .icons {
@@ -73,6 +74,8 @@ header {
     background-image: url('images/menu-dashboard-green.png');
     width: 60px;
     height: 58px;
+    position: relative;
+    top: 0; 
 }
 
 #menu-customers {
@@ -173,7 +176,6 @@ header {
     background: -o-linear-gradient(#f6f6f6, transparent); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#f6f6f6, transparent); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#f6f6f6, transparent); /* Standard syntax */
-    border: 1px solid;
     border-radius: 10px;
     border-color: #eeeeee;
 }
@@ -181,7 +183,9 @@ header {
 .main-white {
     margin: 15px 15px 0px 15px; 
     background-color: #FFFFFF;
-    border: 1px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
     border-radius: 3px;
     border-color: #eeeeee; 
 }
@@ -472,9 +476,42 @@ ul {
 
 /*PROMOS*/
 .promo {
-    background-color: #2498f4; 
+    background-color: #2498f4;
+    margin: 3px;
+    padding: 20px 10px 20px 10px; 
 }
 
+.promo-one, .promo-two, .promo-three {
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border-color: transparent; 
+}
+
+/*FOOTER*/
+footer {
+    background-color: #eeeeee;
+    margin-top: 30px;
+    border-top: 1px solid;
+    border-color: #eeeeee; 
+}
+
+.footer-menu, .footer-annoucements, .footer-logout, .footer-socialmedia {
+    padding: 10px;
+}
+
+.footer-annoucements a {
+    color: #2498f4;
+    font-weight: bold; 
+}
+
+.footer-logout {
+    display: inline-block; 
+}
+
+.footer-logout a {
+    color: #2498f4;
+    font-weight: bold; 
+}
 
 
 
