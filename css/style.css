@@ -59,10 +59,38 @@ header {
 /*MENU*/
 
 .menu {
-    background-color: #134670; 
-    text-align: center;
+    background-color: #134670;
+    background-image: url('images/menu-pattern-shadows.png');
+    background-repeat: no-repeat;
+    background-position: center; 
     /*background: #134670 url('css/images/menu_stripes.png') repeat center;
     padding: 20px 0px 20px 0px;*/
+}
+
+/*#menu-fade-left {
+    background-image: url('images/menu-fade-left.png');
+    width: 300px;
+    height: 110px;
+    display: inline-block;
+}*/
+
+/*#menu-pattern-shadows {
+    background-image: url('images/menu-pattern-shadows.png');
+    max-width: 1200px;
+    max-height: 110px;
+    display: inline-block;
+}*/
+
+/*#menu-fade-right {
+    background-image: url('images/menu-fade-right.png');
+    width: 300px;
+    height: 110px;
+    display: inline-block;
+}*/
+
+.menu-icons {
+    padding: 22px 0px 25px 0px;
+    text-align: center; 
 }
 
 .icons {
@@ -74,8 +102,6 @@ header {
     background-image: url('images/menu-dashboard-green.png');
     width: 60px;
     height: 58px;
-    position: relative;
-    top: 0; 
 }
 
 #menu-customers {
@@ -405,7 +431,8 @@ ul {
     margin-top: 20px;
     padding: 0px;
     max-width: 300px;
-    max-height: 300px; 
+    max-height: 300px;
+    box-shadow: 1px 2px 2px #d9d9d9;
 }
 
 .avatar-green {
@@ -425,7 +452,8 @@ ul {
     background-color: #2498f4;
     text-align: center;
     padding: 10px 0px 10px 0px;
-    /*margin-top: 30px;*/ 
+    /*margin-top: 30px;*/
+    border: none; 
 }
 
 .avatar-text h6 {
@@ -494,7 +522,8 @@ ul {
 .promo-one, .promo-two, .promo-three {
     background-color: #FFFFFF;
     border-radius: 3px;
-    border-color: transparent; 
+    border-color: transparent;
+    box-shadow: 2px 2px 2px #1f81d0;
 }
 
 /*FOOTER*/
@@ -521,6 +550,14 @@ footer {
 .footer-logout a {
     color: #2498f4;
     font-weight: bold; 
+}
+
+.footer-logout-pic {
+    border: 1px solid;
+    border-color: #eeeeee;
+    border-radius: 2px; 
+    box-shadow: 1px 1px 2px #d9d9d9;
+    margin-right: 5px; 
 }
 
 
