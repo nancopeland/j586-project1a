@@ -227,10 +227,6 @@ header {
     font-size: 1.25em;
 }
 
-.tasks a:hover {
-    color: #cccccc; 
-}
-
 .tasks ul li span :hover {
     color: #FFFFFF; 
 }
@@ -265,18 +261,29 @@ ul {
     border: 1px solid;
     border-color: #eeeeee;
     border-radius: 3px;
-    padding: 3px 8px 3px 8px; 
+    padding: 3px 7px 0px 7px;
+    display: inline-block; 
 }
 
-.head-count:hover {
-    color: #cccccc;
+#head-count-avatar {
+    background-image: url("images/avatar-blue.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+#head-count-avatar:hover {
+    background-image: url("images/avatar-grey.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block; 
 }
 
 .number {
-    padding-left: 3px; 
+    padding-left: 3px;
 }
 
-.number a:hover{
+.number:hover {
     color: #cccccc; 
 }
 
@@ -489,14 +496,14 @@ ul {
 
 /*FOOTER*/
 footer {
-    background-color: #eeeeee;
-    margin-top: 30px;
     border-top: 1px solid;
-    border-color: #eeeeee; 
+    border-color: #eeeeee;
+    font-size: .9em; 
 }
 
 .footer-menu, .footer-annoucements, .footer-logout, .footer-socialmedia {
-    padding: 10px;
+    border-right: 1px solid;
+    border-color: #eeeeee;
 }
 
 .footer-annoucements a {
@@ -504,14 +511,44 @@ footer {
     font-weight: bold; 
 }
 
+.footer-menu {
+    padding: 15px 8px 15px 8px;
+    color: #b3b3b3;
+    text-align: center; 
+}
+
+.menu-border {
+    border-right: 1px solid;
+    padding: 0px 10px 0px 10px; 
+}
+
+.blog {
+    padding: 0px 10px 0px 10px;
+}
+
+.footer-annoucements {
+    padding: 15px 8px 15px 8px;
+}
+
+.footer-blue {
+    color: #208ce3;
+    float: right;  
+}
+
 .footer-logout {
-    display: inline-block; 
+    padding: 11px;
 }
 
 .footer-logout a {
     color: #2498f4;
     font-weight: bold; 
 }
+
+.footer-socialmedia {
+    padding: 15px 8px 15px 8px;
+    text-align: center; 
+}
+
 
 
 
