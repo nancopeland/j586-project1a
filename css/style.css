@@ -491,7 +491,8 @@ ul {
 .promo-one, .promo-two, .promo-three {
     background-color: #FFFFFF;
     border-radius: 3px;
-    border-color: transparent; 
+    border-color: transparent;
+    box-shadow: 2px 2px 2px #1f81d0;
 }
 
 /*FOOTER*/
