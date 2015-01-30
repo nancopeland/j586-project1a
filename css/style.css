@@ -268,8 +268,18 @@ ul {
     padding: 3px 8px 3px 8px; 
 }
 
-.head-count:hover {
-    color: #cccccc;
+#head-count-avatar {
+    background-image: url("images/avatar-blue.png");
+    width: 20px;
+    height: 20px;
+    display: inline-block; 
+}
+
+#head-count-avatar:hover {
+    background-image: url("images/avatar-grey.png");
+    width: 20px;
+    height: 20px;
+    display: inline-block; 
 }
 
 .number {
