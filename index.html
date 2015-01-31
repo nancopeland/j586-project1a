@@ -20,6 +20,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
   <body>
     <header>
         <div class="row">
@@ -32,31 +33,102 @@
             <div class="col-md-1 col-sm-12 col-xs-12"></div>
         </div>
     </header>
+    
     <div class="menu">
+      <!--md and lg menu-->
       <div class="row">
-        <div class="col-md-2 hidden-sm hidden-xs left">
-          <img src="css/images/menu-fade-left.png">
+        <div class="menu-pattern hidden-sm hidden-xs">
+          <div class="menu-shadows hidden-sm hidden-xs">
+          <div class="col-md-2 hidden-sm hidden-xs left">
+            <img src="css/images/menu-fade-left.png">
+          </div>
+          <div class="col-md-8 hidden-sm hidden-xs menu-icons">
+            <div id="menu-dashboard" class="icons"><a href="#"></a></div>
+            <div id="menu-customers" class="icons"><a href="#"></a></div>
+            <div id="menu-messages" class="icons"><a href="#"></a></div>
+            <div id="menu-promotions" class="icons"><a href="#"></a></div>
+            <div id="menu-pagecreator" class="icons"><a href="#"></a></div>
+            <div id="menu-analytics" class="icons"><a href="#"></a></div>
+          </div>
+          <div class="col-md-2 hidden-sm hidden-xs right">
+            <img src="css/images/menu-fade-right.png">
+          </div>
+          </div> <!--shadow-->
+        </div> <!--pattern-->
+      </div> <!--row-->
+      
+      <!--sm and xs menu-->
+      <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav hidden-md hidden-lg" role="banner">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#">Getting started</a>
+              </li>
+	      <!--<li class="dropdown">
+	        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Dashboard</a></li>
+	          <li><a href="#">Messages</a></li>
+	          <li><a href="#">Promotions</a></li>
+	          <li><a href="#">Page Creator</a></li>
+	          <li><a href="#">One more separated link</a></li>
+	        </ul>
+	      </li>-->
+              <li class="active"><a href="#">Dashboard</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Messages</a></li>
+              <li><a href="#">Promotions</a></li>
+              <li><a href="#">Page Creator</a></li>
+              <li><a href="#">Analytics</a></li>
+            </ul>
+          </nav>
+        </div> <!--container-->
+      </div> <!--div navbar-->
+      
+      <!--<nav class="navbar navbar-default hidden-md hidden-lg menu-responsive">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+        <!--<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="col-md-8 hidden-sm hidden-xs menu-icons">
-          <div id="menu-dashboard" class="icons"><a href="#"></a></div>
-          <div id="menu-customers" class="icons"><a href="#"></a></div>
-          <div id="menu-messages" class="icons"><a href="#"></a></div>
-          <div id="menu-promotions" class="icons"><a href="#"></a></div>
-          <div id="menu-pagecreator" class="icons"><a href="#"></a></div>
-          <div id="menu-analytics" class="icons"><a href="#"></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav menu-responsive-text">
+            <li class="active"><a href="#">Dashboard<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Promotions</a></li>
+            <li><a href="#">Page Creator</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul>
         </div>
-        <div class="col-md-2 hidden-sm hidden-xs right">
-          <img src="css/images/menu-fade-right.png">
         </div>
-      </div> 
-    </div>
+      </nav> -->
+      
+    </div> <!--menu-->
+    
     <div class="container">
       <div class="row dashboard">
-        <div class="col-md-4 col-sm-6 col-xs-6">
+        <div class="col-md-4 hidden-sm hidden-xs">
           <h1>Dashboard</h1>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-6"></div>
-        <div class="col-md-4 col-sm-6 col-xs-6">
+        <div class="col-md-4 hidden-sm hidden-xs"></div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
           <div class="row">
             <div class="col-md-12 search">
               <div class="searchinput">
