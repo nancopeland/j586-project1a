@@ -60,8 +60,6 @@ header {
 
 .menu {
     background-color: #134670; 
-    /*background: #134670 url('css/images/menu_stripes.png') repeat center;
-    padding: 20px 0px 20px 0px;*/
 }
 
 .menu-pattern {
@@ -201,13 +199,6 @@ header {
 .navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
 
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #33CC66}
-
-.hamburger-menu {
-    color: #FFFFFF;
-    border-color: #FFFFFF; 
-}
-
-
 
 
 /*CONTAINER*/
@@ -611,15 +602,31 @@ ul {
 }
 
 /*FOOTER*/
-footer {
-    background-color: #eeeeee;
-    margin-top: 30px;
-    border-top: 1px solid;
-    border-color: #eeeeee; 
+.footer-gradient {
+    background: -webkit-linear-gradient(transparent, #e2e2e2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(transparent, #e2e2e2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, #e2e2e2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, #e2e2e2); /* Standard syntax */ 
 }
 
-.footer-menu, .footer-annoucements, .footer-logout, .footer-socialmedia {
+.footer-main {
+    background: -webkit-linear-gradient(white, #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #eeeeee); /* Standard syntax */ 
+    border-top: 1px solid;
+    border-color: #eeeeee;
+    height: 50px; 
+}
+
+.footer-menu, .footer-annoucements, .footer-socialmedia {
     padding: 10px;
+    height: 50px; 
+}
+
+.footer-border {
+    border-right: 1px solid;
+    border-color: #dddddd; 
 }
 
 .footer-annoucements a {
@@ -627,13 +634,24 @@ footer {
     font-weight: bold; 
 }
 
+.footer-annoucements a:hover {
+    color: #1e86d8;
+    text-decoration: none; 
+}
+
 .footer-logout {
-    display: inline-block; 
+    display: inline-block;
+    padding-top: 5px; 
 }
 
 .footer-logout a {
     color: #2498f4;
-    font-weight: bold; 
+    font-weight: bold;
+}
+
+.footer-logout a:hover {
+    color: #1e86d8;
+    text-decoration: none; 
 }
 
 .footer-logout-pic {
@@ -641,7 +659,7 @@ footer {
     border-color: #eeeeee;
     border-radius: 2px; 
     box-shadow: 1px 1px 2px #d9d9d9;
-    margin-right: 5px; 
+    margin-right: 5px;
 }
 
 
