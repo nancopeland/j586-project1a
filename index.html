@@ -245,15 +245,15 @@
           <!--right column-->
           <div class="col-md-8 right-col">
             <!--analytics-->
-            <div class="analytics">
+            <div class="analytics hidden-xs">
               <h2 class="section-header"><a href="#">Analytics</a></h2>
               <div class="row">
-                <div class="col-md-10 col-sm-12 col-xs-12 analytics-left">
+                <div class="col-md-10 col-sm-10 analytics-left">
                   <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="col-md-6 col-sm-6">
                       <p class="analytics-text">ACTIVITY</p>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 right">
+                    <div class="col-md-6 col-sm-6 right">
                       <div class="dropdown" role="group" aria-label="...">
                         <button class="btn btn-default dropdown-toggle"
                         type="button" id="dropdownMenu1" data-toggle="dropdown"
@@ -269,7 +269,7 @@
                   </div>
                   <img class="graph img-responsive" src="css/images/analytics-graph.png">
                 </div>
-                <div class="col-md-2 col-sm-12 col-xs-12 charts">
+                <div class="col-md-2 col-sm-2 charts">
                   <p class="charts-text">CHANNELS</p>
                   <img src="css/images/channels.png">
                   <p class="charts-text">REFERRALS</p>
@@ -278,6 +278,65 @@
               </div>
               <div class="row analytics-social">
                   <div class="col-md-12">
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox1" value="option1">
+                      <img src="css/images/activity-facebook.png">
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox2" value="option2">
+                      <img src="css/images/activity-twitter.png">
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox3" value="option3">
+                      <img src="css/images/activity-foursquare.png">
+                    </label>
+                    <label class="checkbox-inline">
+                      <input type="checkbox" id="inlineCheckbox4" value="option4">
+                      <img src="css/images/activity-googleplus.png">
+                    </label>
+                  </div>
+              </div>
+            </div>
+	    <!--analytics xs-->
+	    <div class="analytics hidden-sm hidden-md hidden-lg">
+              <h2 class="section-header"><a href="#">Analytics</a></h2>
+              <div class="row center-block">
+                <div class="col-xs-12 analytics-left">
+                  <div class="row">
+                    <div class="col-xs-6">
+                      <p class="analytics-text">ACTIVITY</p>
+                    </div>
+                    <div class="col-xs-6 right">
+                      <div class="dropdown" role="group" aria-label="...">
+                        <button class="btn btn-default dropdown-toggle"
+                        type="button" id="dropdownMenu1" data-toggle="dropdown"
+                        aria-expanded="true">
+                          06/28/11 - 07/21/11
+                          <span class="caret orange-glyph"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">more dates woo</a></li> 
+                        </ul>
+                      </div>
+                    </div>  
+                  </div>
+                  <img class="graph img-responsive" src="css/images/analytics-graph.png">
+                </div>
+	      </div>
+	      <div class="row">
+                <div class="col-sm-12 col-xs-12 charts-responsive center-block">
+                  <div class="analytics-channels">
+		    <p class="charts-text">CHANNELS</p>
+		    <img src="css/images/channels.png">
+		  </div>
+                  <div class="analytics-referrals">
+		    <p class="charts-text">REFERRALS</p>
+		    <img src="css/images/referrels.png">
+		  </div>
+                </div>
+	      </div>
+              <div class="row analytics-social-responsive">
+                  <div class="col-sm-12 col-xs-12">
                     <label class="checkbox-inline">
                       <input type="checkbox" id="inlineCheckbox1" value="option1">
                       <img src="css/images/activity-facebook.png">
@@ -356,20 +415,20 @@
       </div>
           
           <!--promos-->
-          <div class="row promo">
-            <div class="col-md-4 col-sm-12 col-xs-12">
+          <div class="row promo hidden-xs">
+            <div class="col-md-4 col-sm-4 hidden-xs">
               <div class="promo-one center-block">
-                <img class="img-responsive" src="css/images/promo-one.png">
+                <a href="#"><img class="promo-one-pic img-responsive" src="css/images/promo-one.png"></a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-4 hidden-xs">
               <div class="promo-two center-block">
-                <img class="img-responsive" src="css/images/promo-two.png">
+                <a href="#"><img class="promo-two-pic img-responsive" src="css/images/promo-two.png"></a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-sm-4 hidden-xs">
               <div class="promo-three center-block">
-                <img class="img-responsive" src="css/images/promo-three.png">
+                <a href="#"><img class="promo-three-pic img-responsive" src="css/images/promo-three.png"></a>
               </div>
             </div>
           </div>

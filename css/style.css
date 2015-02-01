@@ -78,27 +78,6 @@ header {
     height: 110px; 
 }
 
-/*#menu-fade-left {
-    background-image: url('images/menu-fade-left.png');
-    width: 300px;
-    height: 110px;
-    display: inline-block;
-}*/
-
-/*#menu-pattern-shadows {
-    background-image: url('images/menu-pattern-shadows.png');
-    max-width: 1200px;
-    max-height: 110px;
-    display: inline-block;
-}*/
-
-/*#menu-fade-right {
-    background-image: url('images/menu-fade-right.png');
-    width: 300px;
-    height: 110px;
-    display: inline-block;
-}*/
-
 .menu-icons {
     padding: 22px 0px 25px 0px;
     text-align: center; 
@@ -174,15 +153,6 @@ header {
     width: 60px;
     height: 58px;
 }
-
-/*.menu-responsive {
-    background-color: #134670;
-    border-color: #134670; 
-}
-
-.menu-responsive-text a{
-    color: #33cc66; 
-}*/
 
 .navbar-inverse { background-color: #134670}
 
@@ -294,9 +264,7 @@ header {
 .main-white {
     margin: 15px 15px 0px 15px; 
     background-color: #FFFFFF;
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
+    border: 1px solid;
     border-radius: 3px;
     border-color: #eeeeee; 
 }
@@ -465,6 +433,24 @@ ul {
     border-color: #eeeeee; 
 }
 
+.charts-responsive {
+    display: inline;
+}
+
+.analytics-channels, .analytics-referrals {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-left: 15px; 
+}
+
+.analytics-channels {
+    padding-right: 15px; 
+}
+
+.analytics-referrals {
+    padding-left: 15px; 
+}
+
 .charts-text {
     margin: 15px 0px 8px 0px;
     font-size: .9em; 
@@ -472,6 +458,10 @@ ul {
 
 .analytics-social {
     text-align: center;
+    margin: 15px 0px 15px 0px; 
+}
+
+.analytics-social-responsive {
     margin: 15px 0px 15px 0px; 
 }
 
@@ -598,7 +588,7 @@ ul {
 .promo {
     background-color: #2498f4;
     margin: 3px;
-    padding: 20px 10px 20px 10px; 
+    padding: 30px 10px 30px 10px; 
 }
 
 .promo-one, .promo-two, .promo-three {
@@ -606,6 +596,18 @@ ul {
     border-radius: 3px;
     border-color: transparent;
     box-shadow: 2px 2px 2px #1f81d0;
+    position: relative;
+    max-width: 280px;
+    max-height: 160px; 
+}
+
+.promo-one-picture, .promo-two-picture, .promo-three-picture {
+    position: absolute;
+    display: inline-block;
+}
+
+.promo-two-picture {
+    bottom: 50%;
 }
 
 /*FOOTER*/
