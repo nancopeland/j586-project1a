@@ -86,6 +86,12 @@ header {
     display: inline-block;
 }
 
+.menu-marker {
+    position: absolute;
+    top: 91%;
+    left: 24%; 
+}
+
 #menu-dashboard {
     background-image: url('images/menu-dashboard-green.png');
     width: 60px;
@@ -420,8 +426,20 @@ ul {
 }
 
 .charts {
-    border-left: 2px solid;
-    border-color: #eeeeee; 
+    border-left: 1px solid;
+    border-color: #eeeeee;
+    border-width: 3px 0 3px 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 100% 0, 0 0, from(#eeeeee), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to right, #eeeeee, rgba(0, 0, 0, 0)) 1 100%; 
 }
 
 .charts-responsive {
@@ -481,8 +499,8 @@ ul {
     display: block;
     margin-top: 20px;
     padding: 0px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 225px;
+    height: 225px;
     box-shadow: 1px 2px 2px #d9d9d9;
     position: relative; 
 }
@@ -490,8 +508,8 @@ ul {
 .avatar-green, .avatar-orange {
     display: inline-block;
     position: absolute;
-    top: -13%;
-    left: 35%;
+    top: -12%;
+    left: 33%;
     bottom: 0;
 }
 
@@ -501,14 +519,15 @@ ul {
 }
 
 .cc-flag-left {
-    top: 20%;
-    left: -6%; 
+    top: 30%;
+    left: -7%; 
 }
 
 .cc-flag-right {
-    top: 0;
-    right: 0;
+    top: 30%;
+    right: -7%;
 }
+
 
 .avatar-text {
     color: #FFFFFF;
@@ -620,13 +639,29 @@ ul {
 }
 
 .footer-menu, .footer-annoucements, .footer-socialmedia {
-    padding: 10px;
+    padding: 15px;
     height: 50px; 
 }
 
 .footer-border {
     border-right: 1px solid;
     border-color: #dddddd; 
+}
+
+.footer-menu {
+    text-align: center;
+    color: #b2b2b2;
+}
+
+.footer-menu-border {
+    border-right: 1px solid;
+    border-color: #b2b2b2;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+.footer-menu-blog {
+    padding-left: 5px; 
 }
 
 .footer-annoucements a {
