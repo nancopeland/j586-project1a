@@ -498,6 +498,7 @@ ul {
     border-radius: 3px;
     display: block;
     margin-top: 20px;
+    margin-bottom: 15px; 
     padding: 0px;
     width: 225px;
     height: 225px;
@@ -527,7 +528,6 @@ ul {
     top: 30%;
     right: -7%;
 }
-
 
 .avatar-text {
     color: #FFFFFF;
@@ -598,7 +598,8 @@ ul {
 .promo {
     background-color: #2498f4;
     margin: 3px;
-    padding: 30px 10px 30px 10px; 
+    padding: 30px 10px 30px 10px;
+    box-shadow: 3px 3px 3px #eeeeee;
 }
 
 .promo-one, .promo-two, .promo-three {
@@ -608,26 +609,15 @@ ul {
     box-shadow: 2px 2px 2px #1f81d0;
     position: relative;
     max-width: 280px;
-    max-height: 160px; 
+    max-height: 170px; 
 }
 
-.promo-one-picture, .promo-two-picture, .promo-three-picture {
-    position: absolute;
-    display: inline-block;
-}
-
-.promo-two-picture {
-    bottom: 50%;
+.promo-two-pic {
+    position: absolute; 
+    top: 18%;
 }
 
 /*FOOTER*/
-.footer-gradient {
-    background: -webkit-linear-gradient(transparent, #e2e2e2); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(transparent, #e2e2e2); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(transparent, #e2e2e2); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(transparent, #e2e2e2); /* Standard syntax */ 
-}
-
 .footer-main {
     background: -webkit-linear-gradient(white, #eeeeee); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white, #eeeeee); /* For Opera 11.1 to 12.0 */
@@ -635,7 +625,8 @@ ul {
     background: linear-gradient(white, #eeeeee); /* Standard syntax */ 
     border-top: 1px solid;
     border-color: #eeeeee;
-    height: 50px; 
+    height: 50px;
+    margin-top: 50px; 
 }
 
 .footer-menu, .footer-annoucements, .footer-socialmedia {
@@ -651,6 +642,7 @@ ul {
 .footer-menu {
     text-align: center;
     color: #b2b2b2;
+    font-size: .9em; 
 }
 
 .footer-menu-border {
@@ -697,8 +689,34 @@ ul {
     margin-right: 5px;
 }
 
+.footer-main-responsive {
+    background: -webkit-linear-gradient(white, #eeeeee); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #eeeeee); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #eeeeee); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #eeeeee); /* Standard syntax */ 
+    border-top: 1px solid;
+    border-color: #eeeeee;
+    margin-top: 50px; 
+}
 
+.footer-logout-responsive {
+    text-align: center; 
+}
 
+.footer-logout-responsive a {
+    color: #2498f4;
+    font-weight: bold;
+}
+
+.footer-logout-responsive a:hover {
+    color: #1e86d8;
+    text-decoration: none; 
+}
+
+.footer-socialmedia-responsive {
+    text-align: center;
+    padding: 15px; 
+}
 
 
 

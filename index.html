@@ -10,7 +10,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/sprites-menu.css" rel="stylesheet">
     <!-- <link href="css/sprites-small.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -165,7 +164,7 @@
                   <h2 class="section-header"><a href="#">Tasks</a></h2>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-3">
-                  <h2 class="section-header right"><img src="css/images/grey-wheel.png"></h2>
+                  <a href="#"><h2 class="section-header right"><img src="css/images/grey-wheel.png"></h2></a>
                 </div>
               </div>
               <div class="tasks">
@@ -439,8 +438,8 @@
           
     </div>
     
-    <div class="footer-gradient">
-      <div class="footer-main">
+    <footer>
+      <div class="footer-main hidden-sm hidden-xs">
 	<div class="col-md-2 footer-menu footer-border">
 	  <a class="footer-menu-border" href="#">Tutorials</a>
 	  <a class="footer-menu-border" href="#">Support</a>
@@ -461,7 +460,25 @@
 	  <span><a href="#"><img src="css/images/footer-youtube.png"></a></span>
 	</div>
       </div>
-    </div>    
+      <!--footer responsive-->
+      <div class="footer-main-responsive hidden-md hidden-lg">
+	<div class="col-sm-12 col-xs-12 footer-menu">
+	  <a class="footer-menu-border" href="#">Tutorials</a>
+	  <a class="footer-menu-border" href="#">Support</a>
+	  <a class="footer-menu-blog" href="#">Blog</a>
+	</div>
+	<div class="col-sm-12 col-xs-12 footer-logout-responsive">
+	  <span><img class="footer-logout-pic" src="css/images/footer-logout.png"></span>
+	  <span><a href="#">Logout</a></span>
+	</div>
+	<div class="col-sm-12 col-xs-12 footer-socialmedia-responsive">
+	  <span><a href="#"><img src="css/images/footer-facebook.png"></a></span>
+	  <span><a href="#"><img src="css/images/footer-twitter.png"></a></span>
+	  <span><a href="#"><img src="css/images/footer-foursquare.png"></a></span>
+	  <span><a href="#"><img src="css/images/footer-youtube.png"></a></span>
+	</div>
+      </div>
+    </footer>    
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
