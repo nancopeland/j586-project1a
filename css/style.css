@@ -6,6 +6,11 @@ body {
     font-size: 14px; 
 }
 
+h1 {
+    color: #FFFFFF;
+    font-size: 1.75em; 
+}
+
 h2 {
     color: #2498f4;
     font-size: 2em;
@@ -608,13 +613,13 @@ ul {
     border-color: transparent;
     box-shadow: 2px 2px 2px #1f81d0;
     position: relative;
-    max-width: 280px;
-    max-height: 170px; 
+    width: 280px;
+    height: 160px; 
 }
 
 .promo-two-pic {
     position: absolute; 
-    top: 18%;
+    top: -8%;
 }
 
 /*FOOTER*/
